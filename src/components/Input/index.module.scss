@@ -1,0 +1,15 @@
+.input {
+  padding: var(--input-padding);
+  border: 1px solid #d9d9d9;
+  font-size: var(--input-font-size);
+  line-height: 1.5;
+
+  &:hover,
+  &:focus {
+    border-color: #40a9ff;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}

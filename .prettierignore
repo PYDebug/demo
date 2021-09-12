@@ -1,0 +1,6 @@
+build/
+package-lock.json
+yarn.lock
+
+**/*-min.js
+**/*.min.js

@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: var(--form-item-margin-bottom);
+
+  display: flex;
+  flex-direction: column;
+
+  .error {
+    color: red;
+    font-size: var(--form-item-error-font-size);
+  }
+}

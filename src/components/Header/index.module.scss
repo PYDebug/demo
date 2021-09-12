@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  height: var(--header-height);
+  background: var(--header-bg);
+
+  position: fixed;
+  top: 0;
+
+  border-bottom: 1px solid #f0f0f0;
+
+  padding-left: var(--header-padding-left);
+
+  display: flex;
+  align-items: center;
+}

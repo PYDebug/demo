@@ -1,0 +1,123 @@
+.invite {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: var(--header-height);
+  bottom: var(--footer-height);
+
+  .content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mainTitle {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #111;
+  }
+
+  .subTitle {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px 0;
+  }
+
+  .openInvite {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+.inviteModal {
+  .modalTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+
+    .divider {
+      height: 2px;
+      background-color: #111;
+      width: 10%;
+      margin-top: 5px;
+    }
+  }
+
+  .submit {
+    margin-top: 15px;
+    .errorMessage {
+      color: red;
+      font-size: 12px;
+    }
+  }
+}
+
+.successText {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .invite {
+    .content {
+      width: 500px;
+    }
+    .mainTitle {
+      font-size: 36px;
+    }
+    .subTitle {
+      font-size: 14px;
+      margin: 20px 0;
+    }
+    .openInvite {
+      width: 200px;
+      height: 60px;
+    }
+  }
+  .inviteModal {
+    padding-bottom: 40px !important;
+    width: 400px !important;
+
+    .modalTitle {
+      font-size: 16px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+
+      .divider {
+        margin-top: 10px;
+      }
+    }
+
+    .submit {
+      margin-top: 30px;
+      .errorMessage {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .successText {
+    margin-bottom: 40px;
+  }
+}

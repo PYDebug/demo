@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-left: 0;
+}
+
+:root {
+  --logo-font-size: 14px;
+  --header-height: 50px;
+  --header-padding-left: 30px;
+  --header-bg: #fff;
+  --footer-height: 50px;
+  --footor-font-size: 12px;
+  --footer-bg: #fff;
+  --modal-default-width: 70%;
+  --modal-padding: 10px;
+  --modal-close-size: 14px;
+  --modal-close-margin: 10px;
+  --button-padding: 4px 15px;
+  --button-font-size: 12px;
+  --input-padding: 4px 8px;
+  --input-font-size: 12px;
+  --form-item-margin-bottom: 10px;
+  --form-item-error-font-size: 12px;
+}
+
+@media screen and (min-width: 900px) {
+  :root {
+    --logo-font-size: 20px;
+    --header-height: 80px;
+    --header-padding-left: 100px;
+    --footer-height: 80px;
+    --footor-font-size: 14px;
+    --modal-default-width: 500px;
+    --modal-padding: 20px;
+    --modal-close-size: 18px;
+    --modal-close-margin: 18px;
+    --button-padding: 4px 15px;
+    --button-font-size: 14px;
+    --input-padding: 4px 11px;
+    --input-font-size: 14px;
+    --form-item-margin-bottom: 14px;
+    --form-item-error-font-size: 14px;
+  }
+}

@@ -1,0 +1,41 @@
+.modal {
+  .mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    background-color: #00000073;
+  }
+
+  .content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modalBox {
+      width: var(--modal-default-width);
+      padding: var(--modal-padding);
+      background-color: #fff;
+      position: relative;
+
+      .close {
+        width: var(--modal-close-size);
+        height: var(--modal-close-size);
+
+        position: absolute;
+        right: var(--modal-close-margin);
+        top: var(--modal-close-margin);
+      }
+    }
+  }
+}

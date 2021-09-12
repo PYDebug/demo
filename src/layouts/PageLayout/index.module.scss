@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  overflow-y: auto;
+
+  .logo {
+    font-weight: bold;
+    font-size: var(--logo-font-size);
+  }
+
+  .content {
+    width: 100%;
+    padding: var(--header-height) 0 var(--footer-height) 0;
+  }
+
+  .footerDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .desc {
+      font-size: var(--footor-font-size);
+      line-height: 1.5;
+      color: #a0a7b1;
+    }
+  }
+}
